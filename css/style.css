@@ -1,4 +1,9 @@
 /* ここから下に記載していく */
+/* .wrap{
+    flex-wrap: wrap;
+} */
+
+
 body{
     width: 1200px;
 }
@@ -16,14 +21,20 @@ header{
 .head01{
     font-size: 21px;
     display: flex;
+    /* margin-left: 50px; */
+    /* justify-content: space-between; */
+
 }
 
-li{
+.head01 li{
     margin-left: 50px;
+    
 }
+/* ul＞head01内のli要素にのみ指示 */
 
 a{
     text-decoration: none;
+    /* 箇条書きのポツを削除 */
     color: black;
 }
 
@@ -51,6 +62,7 @@ a{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    /* 中央に寄せて調整 */
 }
 
 .about{
@@ -62,40 +74,62 @@ a{
     margin-top: 60px;
     margin-bottom: 30px;
     font-size: 24px;
-    color:orange;
+    color: #ffd61a;
+    font-weight: bold;
 }
-
 .aboutpic{
     width: 1200px;
     display: flex;
     }
+/* aboutの編集終了 */
+
+/* courseの編集開始 */
+.bg{
+    background-color: #fafafa;
+}
+.course{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.subtitle02{
+    margin-bottom: 30px;
+    font-size: 24px;
+    color:black;
+    font-weight: bold;
+}
 
 .para01{
     display: flex;
 }
 .c01tex{
+    width: 600px;
+    margin: auto 50px;
     /* padding-top: 120px;
     margin-left: 50px; */
-    margin: auto 50px;
+    
     /* width: 600px; */
     /* height: 404.69; */
 }
-
-.c02tex{
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 40px;
-}
-
-/* .para02{
-    width: 600px;
-   
-} */
 
 .c01pic img{
     width: 600px;
 }
 
-.c03tex{
+.ctitle{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.ctex p{
     margin-bottom: 8px;
+}
+/* div内のどの要素に指示を出すかを明記 */
+
+.c02tex{
+    width: 600px;
+    text-align: right;
+    margin: auto 50px auto 0px;
 }
