@@ -212,6 +212,13 @@ iframe{
 
 /* contact編集の開始 */
 
+.text-form{
+width: 400px;
+height: 30px;
+margin-top: 8px;
+margin-bottom: 8px;
+}
+
 .select-form {
     width: 400px;
     height: 30px;
@@ -219,9 +226,11 @@ iframe{
     margin-bottom: 8px;
 }
 
+
 .checkbox {
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
+    margin-top: 8px;
   }
 
 /* contact編集の終了 */
