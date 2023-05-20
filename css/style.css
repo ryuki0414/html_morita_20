@@ -77,6 +77,10 @@ a{
     color: #ffd61a;
     font-weight: bold;
 }
+.subtitle03{
+    font-size: 18px;
+    margin-bottom: 60px;
+}
 .aboutpic{
     width: 1200px;
     display: flex;
@@ -133,3 +137,126 @@ a{
     text-align: right;
     margin: auto 50px auto 0px;
 }
+
+.newsbox{
+    display: flex;
+    justify-content: center;
+}
+
+.hover01{
+    margin: 15px;
+}
+
+.hover01:hover{
+    background-color: gray;
+}
+/* 
+.newspic{
+    display: flex;
+    justify-content: center;
+} */
+.ntitle{
+    margin-top: 30px;
+    margin-bottom: 24px;
+}
+
+.ntex p{
+    margin-bottom: 8px;
+}
+
+.box01{
+    display: flex;
+    justify-content: center;
+}
+
+.box01 :hover{
+    background-color: gray;
+}
+
+.more{
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* 左右中央に配置 */
+    align-items: center;
+    /* 上下中央に配置 */
+    background-color: #ffd61a;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+/* newsの編集終了 */
+
+/* access編集の開始 */
+.course02{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #fafafa;
+}
+
+iframe{
+    border: none;
+
+    width: 1200px;
+    height: 300px;
+    overflow: hidden;
+    /* はみ出た部分を表示しない */
+
+}
+/* access編集の終了 */
+
+/* contact編集の開始 */
+
+.select-form {
+    width: 400px;
+    height: 30px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.checkbox {
+    width: 24px;
+    height: 24px;
+  }
+
+/* contact編集の終了 */
+
+/* footer編集の開始 */
+.footer{
+    width: 1200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* 左右中央に配置 */
+    align-items: center;
+    /* 上下中央に配置 */
+    background-color: #707070;
+    color: white;
+    margin-top: 140px;
+}
+/* footer編集の終了 */
+
+/* よく使うclass */
+/* .course{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.subtitle02{
+    margin-bottom: 30px;
+    font-size: 24px;
+    color:black;
+    font-weight: bold;
+}
+.subtitle03{
+    font-size: 18px;
+    margin-bottom: 60px;
+} */
