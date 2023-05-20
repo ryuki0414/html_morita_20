@@ -80,6 +80,7 @@ a{
 .subtitle03{
     font-size: 18px;
     margin-bottom: 60px;
+    text-align: center;
 }
 .aboutpic{
     width: 1200px;
@@ -102,6 +103,8 @@ a{
     font-size: 24px;
     color:black;
     font-weight: bold;
+    text-align: center;
+
 }
 
 .para01{
@@ -193,7 +196,7 @@ a{
 
 /* access編集の開始 */
 .course02{
-    text-align: center;
+    
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: #fafafa;
@@ -206,24 +209,38 @@ iframe{
     height: 300px;
     overflow: hidden;
     /* はみ出た部分を表示しない */
+}
 
+.flexbox01{
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+}
+.flexbox01 p{
+    margin: 0px 0px 30px 100px;
 }
 /* access編集の終了 */
 
 /* contact編集の開始 */
+.flexbox02{
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+}
+.flexbox02 p{
+    margin: 0px 0px 30px 100px;
+}
 
 .text-form{
 width: 400px;
 height: 30px;
-margin-top: 8px;
-margin-bottom: 8px;
+
 }
 
 .select-form {
     width: 400px;
     height: 30px;
-    margin-top: 8px;
-    margin-bottom: 8px;
+
 }
 
 
