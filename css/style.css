@@ -222,6 +222,23 @@ iframe{
 /* access編集の終了 */
 
 /* contact編集の開始 */
+th{
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    text-align: left;
+    width: 300px;
+    height: 50px;
+}
+
+td{
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    border-left: solid 1px black;
+    border-collapse:  collapse; 
+    width: 300px;
+    height: 50px;   
+}
+ 
 .flexbox02{
     display: flex;
     margin-top: 60px;
