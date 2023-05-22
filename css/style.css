@@ -40,6 +40,10 @@ a{
     position: relative;
 }
 
+.mainvisual img{
+    width: 1200px;
+}
+
 .title01{
     font-size: 45px;
     font-weight:bold ;
@@ -97,8 +101,13 @@ a{
 
 .aboutpic{
     width: 1200px;
-    display: flex;
+    overflow: hidden;
     }
+
+.aboutpic img{
+    width: 300px;
+    float: left;
+}
 /* aboutの編集終了 */
 
 /* courseの編集開始 */
@@ -228,7 +237,6 @@ a{
 
 iframe{
     border: none;
-
     width: 1200px;
     height: 300px;
     overflow: hidden;
